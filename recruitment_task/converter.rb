@@ -3,7 +3,6 @@ require_relative 'price'
 class Converter
   class InvalidCurrency < StandardError; end
 
-
   attr_reader :price
 
   EXCHANGE_RATIO = {eur: {pln: 4.32, usd: 1.13, eur: 1},
