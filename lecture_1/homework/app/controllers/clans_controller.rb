@@ -7,7 +7,7 @@ class ClansController < ApplicationController
 
   def create
     clan = Clan.create(clan_params)
-    render :json, clan.to_json(only: %w[id name])
+    render :json, clan.to_json(only: %w[id name]), status: 201
   end
 
   private
