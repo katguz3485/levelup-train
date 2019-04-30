@@ -7,4 +7,4 @@ Twoim pierwszym zadaniem będzie stworzenie API, które pomoże Szogunowi w zarz
 - API powinno dawać możliwość tworzenia nowych klanów w systemie i wyświetlania wszystkich klanów
 - API udostępnia cały CRUD (wyświetlanie, tworzenie, aktualizacja, niszczenie) dla samurajów w klanach (Pamiętaj o odpowiednich zagnieżdżeniach w ścieżkach - nie chcemy, żeby Szogun musiał domyślać się jak wykonać potrzebne akcje!).
 - Dodatkowo, endpoint wyświetlający wszystkich samurajów w klanie powinien umożliwiać wyświetlenie tylko żywych lub tylko martwych samurajów w wybranym klanie.
-- Należy pamiętać, że Szogun nie lubi oglądać 500-tek w api. Zaimplementuj akcje create i update w taki sposób, aby zwróciły status 422 i error według własnego uznania jeśli coś pójdzie nie tak.
+- Należy pamiętać, że Szogunnie lubi oglądać 500-tek w api. Zaimplementuj akcje create i update w taki sposób, aby zwróciły status 422 i error według własnego uznania jeśli coś pójdzie nie tak. 

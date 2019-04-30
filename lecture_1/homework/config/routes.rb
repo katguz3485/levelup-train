@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
 
   namespace :api do
-    resources :clans do
-      resources :samurais, only: %i[index create update destroy]
+    namespace :v1 do
+      resources :clans do
+        resources :samurais, only: %i[index create update destroy]
+      end
     end
   end
 
