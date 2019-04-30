@@ -2,8 +2,8 @@ module Api
   class SamuraisController < ApplicationController
 
     def create
-      samurai = clan.samurais.create!(samourai_params)
-      render json: samurai.to_json(only: %w[name shield_quality number_of_battles join_date])
+      samurai = clan.samurais.create!(samurai_params)
+      render json: samurai.to_json(only: SAMURAI_FEATURES), status: 201
     end
 
     def index
@@ -15,18 +15,18 @@ module Api
         samurais = clan.samurais
       end
 
-      render json: samurais.to_json(only: %w[name shield_quality number_of_battles join_date])
+      render json: samurais.to_json(only: SAMURAI_FEATURES)
     end
 
 
     def show
-      render json: samurai.to_json(only: %w[name shield_quality number_of_battles join_date])
+      render json: samurai.to_json(only:SAMURAI_FEATURES)
     end
 
 
     def update
       clan.samurai.update!(samurai_params)
-      render json: samurai.to_json(only: %w[name shield_quality number_of_battles join_date])
+      render json: samurai.to_json(only: SAMURAI_FEATURES)
     end
 
     def delete
@@ -36,6 +36,11 @@ module Api
 
     private
 
+    SAMURAI_FEATURES = %i[name shield_quality number_of_battles join_date death_date]
+
+    def samurai_params
+      params.require(:samurai).permit(SAMURAI_FEATURES)
+    end
 
     def samourai
       @samurai ||= clan.samurais.find(params[:id])
@@ -46,10 +51,10 @@ module Api
       @clan ||= Clan.find(params[:clan_id])
     end
 
-    def samurai_params
-      params.permit(:name, :shield_quality, :number_of_battles, :join_date, :death_date)
-
-    end
+    # def samurai_params
+    #   params.permit(:name, :shield_quality, :number_of_battles, :join_date, :death_date)
+    #
+    # end
 
   end
 end
