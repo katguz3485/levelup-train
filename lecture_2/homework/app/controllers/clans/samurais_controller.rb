@@ -39,7 +39,7 @@ module Clans
       @clan ||= Clan.find(params[:clan_id])
     end
 
-    def samurai
+    def samursai
       @samurai ||= Samurai.find_by!(id: params[:id], clan_id: params[:clan_id])
     end
 

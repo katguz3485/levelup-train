@@ -1,7 +1,7 @@
 class Samurai < ApplicationRecord
   belongs_to :clan
 
-  validates :name, presence: true
+  validates :name, presence: true, uniquness: true
   validates :armor_quality, numericality: { only_integer: true,
                                             greater_than_or_equal_to: 0,
                                             less_than_or_equal_to: 100 }
