@@ -1,5 +1,6 @@
+# frozen_string_literal: true
+
 class Clan < ApplicationRecord
   has_many :warriors, dependent: :destroy
-  validates :name, presence: true, uniquness: {conditions: -> {where("name != ''")}}
-
+  validates :name, presence: true
 end
