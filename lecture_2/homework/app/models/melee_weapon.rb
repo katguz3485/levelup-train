@@ -1,0 +1,3 @@
+class MeleeWeapon < Weapon
+
+end

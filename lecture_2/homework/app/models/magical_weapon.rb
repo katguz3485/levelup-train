@@ -1,0 +1,3 @@
+class MagicalWeapon < Weapon
+
+end

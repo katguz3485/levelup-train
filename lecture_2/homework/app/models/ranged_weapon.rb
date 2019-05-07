@@ -1,0 +1,3 @@
+class RangedWeapon < Weapon
+
+end
