@@ -1,52 +1,64 @@
-# frozen_string_literal: true
-
 module Clans
   class SamuraisController < ApplicationController
-    def show
-      render json: samurai.to_json
-    end
 
-    def index
-      samurais = clan.samurais
-      if params.key?(:alive)
-        if params[:alive].to_i == 0
-          render json: samurais.dead.to_json
-        else
-          render json: samurais.alive.to_json
-        end
+    def create
+      samurai = clan.samurais.new(samurai_params)
+      if samurai.save
+        render json: samurai.to_json(only: SAMURAI_FEATURES), status: 201
       else
-        render json: samurais.to_json
+        render json: {:errors => samurai.errors.full_messages}, status: 422
       end
     end
 
-    def create
-      samurai = clan.samurais.create!(samurai_params)
-
-      render json: samurai.to_json, status: 201
+    def index
+      render json: set_samurais.to_json(only: SAMURAI_FEATURES)
     end
+
+
+    def show
+      render json: samurai.to_json(only: SAMURAI_FEATURES)
+    end
+
 
     def update
-      samurai.update!(samurai_params)
-
-      render json: samurai.to_json
+      if clan.samurai.update!(samurai_params)
+        render json: samurai.to_json(only: SAMURAI_FEATURES), status: 201
+      else
+      end
     end
 
-    def destroy
+    def delete
       samurai.destroy!
+      head 204
     end
 
     private
+
+    SAMURAI_FEATURES = %i[name shield_quality number_of_battles join_date death_date]
+
+    def samurai_params
+      params.require(:samurai).permit(SAMURAI_FEATURES)
+    end
+
+    def samourai
+      @samurai ||= clan.samurais.find(params[:id])
+    end
+
 
     def clan
       @clan ||= Clan.find(params[:clan_id])
     end
 
-    def samursai
-      @samurai ||= Samurai.find_by!(id: params[:id], clan_id: params[:clan_id])
-    end
 
-    def samurai_params
-      params.permit(:name, :death_date, :armor_quality, :number_of_battles, :join_date)
+    def set_samurais
+      if params[:dead]
+        samurais = clan.samurais.dead
+      elsif params[:alive]
+        samurais = clan.samurais.alive
+      else
+        samurais = clan.samurais
+      end
+      samurais
     end
   end
 end
