@@ -28,10 +28,10 @@ class Converter
   end
 
 end
-#
-# price_in_euro = Price.new(10, :eur)
-# puts  converter = Converter.new(price_in_euro)
-# puts converter.convert_to(:usd) # => 11.3
-# puts converter.convert_to(:eur) # => 10
-# puts converter.convert_to(:pln) # => 43.2
-# converter.convert_to(:xxx) # => raises error
+
+price_in_euro = Price.new(10, :eur)
+puts  converter = Converter.new(price_in_euro)
+puts converter.convert_to(:usd) # => 11.3
+puts converter.convert_to(:eur) # => 10
+puts converter.convert_to(:pln) # => 43.2
+converter.convert_to(:xxx) # => raises error
