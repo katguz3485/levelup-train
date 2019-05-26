@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class ClansController < ApplicationController
-
   def index
     clans = Clan.all
     render json: clans.to_json
@@ -12,7 +11,7 @@ class ClansController < ApplicationController
     if clan.save
       render json: clan.to_json, status: 201
     else
-      render json: {errors: clan.errors.full_messages}, status: 422
+      render json: { errors: clan.errors.full_messages }, status: 422
     end
   end
 
@@ -22,7 +21,6 @@ class ClansController < ApplicationController
     params.require(:clan).permit(:name)
   end
 end
-
 
 # module Clans
 #   class SamuraisController < ApplicationController
