@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_07_141826) do
+ActiveRecord::Schema.define(version: 2019_05_26_182330) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,11 +48,8 @@ ActiveRecord::Schema.define(version: 2019_05_07_141826) do
     t.string "type", default: "Samurai", null: false
     t.string "defensible_type"
     t.bigint "defensible_id"
-    t.string "offensible_type"
-    t.bigint "offensible_id"
     t.index ["clan_id"], name: "index_warriors_on_clan_id"
     t.index ["defensible_type", "defensible_id"], name: "index_warriors_on_defensible_type_and_defensible_id"
-    t.index ["offensible_type", "offensible_id"], name: "index_warriors_on_offensible_type_and_offensible_id"
   end
 
   create_table "weapons", force: :cascade do |t|
@@ -61,6 +58,9 @@ ActiveRecord::Schema.define(version: 2019_05_07_141826) do
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "offensible_type"
+    t.bigint "offensible_id"
+    t.index ["offensible_type", "offensible_id"], name: "index_weapons_on_offensible_type_and_offensible_id"
   end
 
   add_foreign_key "warriors", "clans"
