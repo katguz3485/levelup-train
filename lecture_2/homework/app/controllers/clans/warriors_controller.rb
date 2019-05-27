@@ -12,13 +12,12 @@ module Clans
     end
 
     def index
-      render json: serializer(clan.warriors)
+      render json: set_warriors
 
     end
 
     def show
       render json: serializer(warrior)
-                 # warrior.to_json(only: WARRIORS_FEATURES)
     end
 
     def update
@@ -58,16 +57,11 @@ module Clans
                  else
                    serializer(clan.warriors)
                  end
-      warriors
+     warriors
     end
 
-    #
-    # def serializer(obj_to_serialize)
-    #   ClanSerializer.new(obj_to_serialize).serializable_hash
-    # end
-
-    def serializer(*args)
-      WarriorSerializer.new(*args)
+    def serializer(serialized_object)
+      WarriorSerializer.new(serialized_object)
     end
 
   end
