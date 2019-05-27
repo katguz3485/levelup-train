@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :warrior do
-    name { "MyString" }
+    name { 'MyString' }
     armor_quality { 1 }
     number_of_battles { 1 }
     clan
