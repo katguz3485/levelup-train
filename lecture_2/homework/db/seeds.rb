@@ -42,14 +42,11 @@ end
 
 Rails.logger.info "#{Warrior.all.count} warriors have been created"
 
-offensible_type_list = %w[MagicalWeapon MeleeWeapon RangedWeapon]
-
 weapon_name_list = %w[Gun Bow Sword Axe Mortar]
-
 
 Warrior.all.each do |warrior|
   Weapon.create!(name: weapon_name_list.sample, damage: rand(1..5), range: rand(1..8),
-                 offensible_type: offensible_type_list.sample, warrior_id: warrior.id)
+                 warrior_id: warrior.id, kind: Weapon.kinds.keys.sample)
 end
 
 Rails.logger.info "Offensibles have been created"
