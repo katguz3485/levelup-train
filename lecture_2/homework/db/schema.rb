@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_26_194339) do
+ActiveRecord::Schema.define(version: 2019_05_28_082224) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -58,10 +58,7 @@ ActiveRecord::Schema.define(version: 2019_05_26_194339) do
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "offensible_type"
-    t.bigint "offensible_id"
     t.bigint "warrior_id"
-    t.index ["offensible_type", "offensible_id"], name: "index_weapons_on_offensible_type_and_offensible_id"
     t.index ["warrior_id"], name: "index_weapons_on_warrior_id"
   end
 
