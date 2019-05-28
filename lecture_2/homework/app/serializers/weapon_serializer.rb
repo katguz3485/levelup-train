@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-class WeaponSerializer
-  include FastJsonapi::ObjectSerializer
+class WeaponSerializer < ApplicationSerializer
+
   attributes :range, :damage, :name, :kind
   belongs_to :warrior
 

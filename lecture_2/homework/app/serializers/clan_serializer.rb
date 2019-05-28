@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-class ClanSerializer
-  include FastJsonapi::ObjectSerializer
+class ClanSerializer < ApplicationSerializer
   attributes :name
 end
