@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-
+require 'pry'
 # This controller is written badly on purpose. Please refactor this
 class MercenariesController < ApplicationController
   def index
@@ -58,5 +57,9 @@ class MercenariesController < ApplicationController
     else
       # TODO: some default?
     end
+  end
+
+  def serializer
+
   end
 end

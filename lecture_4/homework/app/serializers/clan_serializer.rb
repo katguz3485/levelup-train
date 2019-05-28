@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ClanSerializer < ActiveModel::Serializer
+class ClanSerializer < ApplicationSerializer
   has_many :warriors
 
   attributes :name

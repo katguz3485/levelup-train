@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-class WeaponSerializer < ActiveModel::Serializer
+class WeaponSerializer < ApplicationSerializer
+
   attributes :range, :damage, :kind
 
   belongs_to :warrior
