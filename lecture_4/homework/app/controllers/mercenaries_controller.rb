@@ -22,6 +22,7 @@ class MercenariesController < ApplicationController
 
   def employ
     return unless mercenary.available_from < Time.now
+
     clan = find_clan
     building = find_building
     warrior_class = clan.warriors.select('type, count(type) as warriors_count').group(:type).order('warriors_count ASC').first.class
@@ -37,9 +38,7 @@ class MercenariesController < ApplicationController
   end
 
   def find_building
-    if params[:building_id]
-      Building.find(params[:building_id])
-    end
+    Building.find(params[:building_id]) if params[:building_id]
   end
 
   def find_clan
