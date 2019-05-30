@@ -6,6 +6,7 @@ class Warrior < ApplicationRecord
   has_one :weapon, dependent: :destroy
   has_one :mercenary
 
+
   validates :name, presence: true, uniqueness: { conditions: -> { where(death_date: nil) } }
   validates :armor_quality, numericality: { only_integer: true,
                                             greater_than_or_equal_to: 0,
