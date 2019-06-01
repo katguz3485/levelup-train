@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d3f2b5-036e-46a6-9f6b-79189e90f5be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture_4/homework/app/queries/buildings_query.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/assets/images/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/assets/javascripts/application.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/assets/stylesheets/application.css" beforeDir="false" />
@@ -49,114 +48,8 @@
       <change beforePath="$PROJECT_DIR$/../inheritance/different_inheritance_approach.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/different_inheritance_approach.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning_tasks/String.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_tasks/String.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/crud_example.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/crud_example.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/channels/application_cable/channel.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/channels/application_cable/connection.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/controllers/api/v1/clans_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/controllers/api/v1/clans_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/controllers/api/v1/samurais_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/controllers/api/v1/samurais_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/jobs/application_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/models/application_record.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/models/application_record.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/models/clan.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/models/clan.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/app/models/samurai.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/app/models/samurai.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/bin/bundle" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/bin/bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/bin/rails" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/bin/rake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/bin/setup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/bin/spring" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/bin/spring" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/bin/update" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/bin/update" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/boot.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/environment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/environments/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/initializers/application_controller_renderer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/initializers/application_controller_renderer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/initializers/backtrace_silencers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/initializers/cors.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/initializers/inflections.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/initializers/mime_types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/initializers/mime_types.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/initializers/wrap_parameters.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/initializers/wrap_parameters.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/puma.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/config/spring.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/config/spring.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/db/migrate/20190429154810_create_clans.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/db/migrate/20190429154810_create_clans.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/db/migrate/20190429154847_create_samurais.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/db/migrate/20190429154847_create_samurais.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/test/controllers/clans_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/test/controllers/clans_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/test/controllers/samurais_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/test/controllers/samurais_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/test/models/clan_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/test/models/clan_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/test/models/samurai_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/test/models/samurai_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_1/homework/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/homework/test/test_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/app/controllers/concerns/exception_handler.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/app/controllers/concerns/exception_handler.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/app/serializers/application_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/app/serializers/application_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/app/serializers/weapon_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/app/serializers/weapon_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/bin/bundle" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/bin/bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/bin/rails" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/bin/rake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/bin/setup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/bin/spring" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/bin/spring" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/bin/update" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/bin/update" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/boot.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/environment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/environments/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/initializers/application_controller_renderer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/initializers/application_controller_renderer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/initializers/backtrace_silencers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/initializers/cors.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/initializers/inflections.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/initializers/mime_types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/initializers/mime_types.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/initializers/wrap_parameters.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/initializers/wrap_parameters.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/puma.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/config/spring.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/config/spring.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190314150921_create_clans_and_samurais.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190314150921_create_clans_and_samurais.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190501173633_rename_table_samurai_to_warrior.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190501173633_rename_table_samurai_to_warrior.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504105227_add_defensible_to_warriors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504105227_add_defensible_to_warriors.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504110057_create_strongholds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504110057_create_strongholds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504110110_create_walls.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504110110_create_walls.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504110115_create_towers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504110115_create_towers.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190506203534_create_weapons.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190506203534_create_weapons.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190526182330_add_offensible_to_weapons.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190526182330_add_offensible_to_weapons.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190526194339_add_warrior_reference_to_weapons.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190526194339_add_warrior_reference_to_weapons.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190528082224_remove_offensible_form_weapon.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190528082224_remove_offensible_form_weapon.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190528083556_add_kind_column_to_weapons.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/migrate/20190528083556_add_kind_column_to_weapons.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_2/homework/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/homework/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/controllers/clans/warriors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/controllers/clans/warriors_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/controllers/clans_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/controllers/clans_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/models/mercenary.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/models/mercenary.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/models/warrior.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/models/warrior.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/nulls/null_weapon.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/nulls/null_weapon.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/queries/clans_query.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/queries/clans_query.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/queries/mercenaries_query.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/queries/mercenaries_query.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/serializers/clan_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/serializers/clan_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/serializers/mercenary_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/serializers/mercenary_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/serializers/warrior_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/serializers/warrior_serializer.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/services/warrior_recruiter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/services/warrior_recruiter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/app/services/weapon_creator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/app/services/weapon_creator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/db/migrate/20190405084731_create_mercenaries.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/db/migrate/20190405084731_create_mercenaries.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/db/migrate/20190405090544_add_counter_to_clans.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/db/migrate/20190405090544_add_counter_to_clans.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/db/migrate/20190528115742_add_null_false_and_defaults_to_columns.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/db/migrate/20190528115742_add_null_false_and_defaults_to_columns.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_4/homework/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_4/homework/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/app/services/reports/siege_report.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/app/services/reports/siege_report.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405084731_create_mercenaries.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405084731_create_mercenaries.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recruitment_task/converter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment_task/converter.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lib/assets/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../log/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/404.html" beforeDir="false" />
@@ -226,10 +119,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/clans_query.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/services/warrior_recruiter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="680">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -237,17 +139,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/mercenary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="238">
+              <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="-62">
+              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -255,35 +157,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/buildings_query.rb">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/weapon_serializer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/warrior_serializer.rb">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_4/homework/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/clans_query.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/dynamic_matchers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -292,16 +185,16 @@
         <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/mercenary_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/controllers/clans_controller.rb">
+        <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/services/weapon_creator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="21" selection-end-column="4" />
+            <state>
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -358,13 +251,13 @@
         <option value="$PROJECT_DIR$/lecture_4/homework/app/serializers/warrior_serializer.rb" />
         <option value="$PROJECT_DIR$/lecture_4/homework/app/services/building_finder.rb" />
         <option value="$PROJECT_DIR$/lecture_4/homework/app/services/clan_finder.rb" />
-        <option value="$PROJECT_DIR$/lecture_4/homework/app/services/weapon_creator.rb" />
-        <option value="$PROJECT_DIR$/lecture_4/homework/app/services/warrior_recruiter.rb" />
-        <option value="$PROJECT_DIR$/lecture_4/homework/app/models/mercenary.rb" />
-        <option value="$PROJECT_DIR$/lecture_4/homework/app/queries/mercenaries_query.rb" />
-        <option value="$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb" />
         <option value="$PROJECT_DIR$/lecture_4/homework/app/queries/buildings_query.rb" />
         <option value="$PROJECT_DIR$/lecture_4/homework/app/queries/clans_query.rb" />
+        <option value="$PROJECT_DIR$/lecture_4/homework/app/queries/mercenaries_query.rb" />
+        <option value="$PROJECT_DIR$/lecture_4/homework/app/models/mercenary.rb" />
+        <option value="$PROJECT_DIR$/lecture_4/homework/app/services/weapon_creator.rb" />
+        <option value="$PROJECT_DIR$/lecture_4/homework/app/services/warrior_recruiter.rb" />
+        <option value="$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb" />
       </list>
     </option>
   </component>
@@ -386,11 +279,6 @@
             <path>
               <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
               <item name="levelup-train" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="levelup-train" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
@@ -424,7 +312,48 @@
               <item name="lecture_4" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="levelup-train" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="weapons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="levelup-train" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nulls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="levelup-train" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="queries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="levelup-train" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="levelup-train" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="levelup-train" type="b2602c69:ProjectViewProjectNode" />
@@ -454,7 +383,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fitofit-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../monio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -602,12 +531,12 @@
       <workItem from="1559030398355" duration="21763000" />
       <workItem from="1559146502223" duration="17625000" />
       <workItem from="1559243511338" duration="11091000" />
-      <workItem from="1559307071644" duration="10594000" />
+      <workItem from="1559307071644" duration="18933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194722000" />
+    <option name="totallyTimeSpent" value="203061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -622,7 +551,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78723407" visible="true" weight="0.3008779" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78723407" visible="true" weight="0.26097366" />
       <window_info id="Structure" order="1" sideWeight="0.21276596" side_tool="true" weight="0.2434158" />
       <window_info id="Favorites" order="2" sideWeight="0.17603911" side_tool="true" weight="0.2807175" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -636,7 +565,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49782294" visible="true" weight="0.4576547" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49782294" visible="true" weight="0.35667753" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50217706" side_tool="true" weight="0.30033004" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -678,12 +607,6 @@
     <SUITE FILE_PATH="coverage/levelup_train@crud_example__1_.rcov" NAME="crud_example (1) Coverage Results" MODIFIED="1556550152396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture_1" MODULE_NAME="levelup-train" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lecture_2/homework/db/migrate/20190504110115_create_towers.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_2/homework/db/migrate/20190526194339_add_warrior_reference_to_weapons.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_4/homework/db/migrate/20190528115742_add_null_false_and_defaults_to_columns.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -728,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/building_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -752,13 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/clan.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -812,13 +721,6 @@
     <entry file="file://$PROJECT_DIR$/lecture_2/homework/app/serializers/weapon_serializer.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/nulls/null_weapon.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_4/homework/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -833,31 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_2/homework/app/controllers/clans_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_4/homework/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/weapon_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -887,62 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/warrior.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/warrior_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/services/weapon_creator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/mercenary_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/tmp/pids/server.pid">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/mercenary.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/services/warrior_recruiter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_4/homework/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/mercenaries_query.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -953,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/dynamic_matchers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -967,17 +789,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/buildings_query.rb">
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/warrior.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/validations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/weapons/katana.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/nulls/null_weapon.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/tmp/pids/server.pid">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/clan.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_2/homework/app/controllers/clans_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/models/mercenary.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/weapon_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/mercenary_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/serializers/warrior_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/services/weapon_creator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/buildings_query.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/clans_query.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/services/warrior_recruiter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/queries/mercenaries_query.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>

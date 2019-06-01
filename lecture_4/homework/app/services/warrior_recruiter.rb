@@ -12,7 +12,6 @@ class WarriorRecruiter
     employ(mercenary: mercenary)
   end
 
-
   private
 
   def employ(mercenary:)
@@ -39,5 +38,4 @@ class WarriorRecruiter
   def create_good_weapon(mercenary)
     WeaponCreator.new(mercenary: mercenary).call
   end
-
 end
