@@ -5,7 +5,7 @@ class MercenariesQuery
     relation.where(warrior_id: nil).where('available_from < ?', Time.now)
   end
 
-  def self.cheap_and_experienced(relation: Mercenary)
-    relation.where(warrior_id: nil).where(experience: :desc, price: :asc)
+  def self.cheapest(relation: Mercenary)
+    relation.where(warrior_id: nil).where('available_from < ?', Time.now).order(price: :asc)
   end
 end

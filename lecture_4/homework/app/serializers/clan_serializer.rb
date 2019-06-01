@@ -2,6 +2,5 @@
 
 class ClanSerializer < ApplicationSerializer
   has_many :warriors
-
   attributes :name
 end

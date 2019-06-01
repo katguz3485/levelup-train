@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Hordes
   class OrcsController < ApplicationController
     def show

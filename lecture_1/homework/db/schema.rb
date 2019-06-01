@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -10,24 +12,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_29_154847) do
-
-  create_table "clans", force: :cascade do |t|
-    t.string "name", default: "", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+ActiveRecord::Schema.define(version: 20_190_429_154_847) do
+  create_table 'clans', force: :cascade do |t|
+    t.string 'name', default: '', null: false
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  create_table "samurais", force: :cascade do |t|
-    t.string "name", default: "", null: false
-    t.integer "shield_quality", default: 0, null: false
-    t.integer "number_of_battles", default: 0, null: false
-    t.date "join_date", null: false
-    t.date "death_date"
-    t.integer "clan_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["clan_id"], name: "index_samurais_on_clan_id"
+  create_table 'samurais', force: :cascade do |t|
+    t.string 'name', default: '', null: false
+    t.integer 'shield_quality', default: 0, null: false
+    t.integer 'number_of_battles', default: 0, null: false
+    t.date 'join_date', null: false
+    t.date 'death_date'
+    t.integer 'clan_id', null: false
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['clan_id'], name: 'index_samurais_on_clan_id'
   end
-
 end

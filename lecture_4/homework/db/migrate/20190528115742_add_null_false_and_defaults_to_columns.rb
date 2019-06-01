@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddNullFalseAndDefaultsToColumns < ActiveRecord::Migration[5.2]
   def change
     change_column_null :buildings, :name, false
@@ -11,4 +13,3 @@ class AddNullFalseAndDefaultsToColumns < ActiveRecord::Migration[5.2]
     change_column_null :weapons, :kind, false
   end
 end
-

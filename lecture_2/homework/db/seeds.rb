@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 require 'faker'
 
 Rails.logger = Logger.new(STDOUT)
-Rails.logger.info "Populating db with seeds started"
+Rails.logger.info 'Populating db with seeds started'
 
-
-clan_list = [{name: "Magic"}, {name: "Wisdom"}, {name: "Strength"}]
+clan_list = [{ name: 'Magic' }, { name: 'Wisdom' }, { name: 'Strength' }]
 
 clan_list.each do |clan|
   Clan.create(name: clan[:name])
@@ -20,7 +21,7 @@ defensible_type_list = %w[Tower Stronghold Wall]
   Wall.create!
 end
 
-Rails.logger.info "Defensibles have been created"
+Rails.logger.info 'Defensibles have been created'
 
 Clan.all.each do |clan|
   Samurai.create!(name: Faker::Name.name, armor_quality: rand(1..100), number_of_battles: rand(1..10),
@@ -49,9 +50,4 @@ Warrior.all.each do |warrior|
                  warrior_id: warrior.id, kind: Weapon.kinds.keys.sample)
 end
 
-Rails.logger.info "Offensibles have been created"
-
-
-
-
-
+Rails.logger.info 'Offensibles have been created'

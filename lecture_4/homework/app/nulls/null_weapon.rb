@@ -1,7 +1,8 @@
-class NullWeapon
+# frozen_string_literal: true
 
+class NullWeapon
   def type
-    "Undefined weapon type"
+    'Undefined weapon type'
   end
 
   def range

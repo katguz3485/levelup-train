@@ -12,9 +12,5 @@ class Mercenary < ApplicationRecord
   scope :alive, -> { where('death_date IS NULL') }
 
   scope :available, -> { MercenariesQuery.available }
-  scope :cheap_and_experienced, -> { MercenariesQuery.cheap_and_experienced }
-
-  # #   Mercenary.where('available_from < ?', Time.now).all
-  # scope :cheap_and_experienced, -> { Mercenary.available.order(experience: :desc, price: :asc).first }
-
+  scope :cheapest, -> { MercenariesQuery.cheapest(relation: Mercenary).first }
 end

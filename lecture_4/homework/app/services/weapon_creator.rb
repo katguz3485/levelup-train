@@ -1,18 +1,17 @@
-class WeaponCreator
+# frozen_string_literal: true
 
-  attr_accessor :mercenary
+class WeaponCreator
+  attr_reader :mercenary
 
   def initialize(mercenary:)
     @mercenary = mercenary
   end
 
   def call
-    create_good_weapon(mercenary)
+    create_good_weapon
   end
 
-  private
-
-  def create_good_weapon(mercenary)
+  def create_good_weapon
     case mercenary.preferred_weapon_kind
     when :melee
       Weapons::Katana.create!(warrior: mercenary.warrior, range: 2, damage: 25)
@@ -21,7 +20,5 @@ class WeaponCreator
     else
       NullWeapon.new
     end
-
   end
-
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'price'
 
 class Converter
@@ -5,10 +7,9 @@ class Converter
 
   attr_reader :price
 
-  EXCHANGE_RATIO = {eur: {pln: 4.32, usd: 1.13, eur: 1},
-                    usd: {pln: 3.81, eur: 0.88, usd: 1},
-                    pln: {eur: 0.23, usd: 0.26, pln: 1}
-  }
+  EXCHANGE_RATIO = { eur: { pln: 4.32, usd: 1.13, eur: 1 },
+                     usd: { pln: 3.81, eur: 0.88, usd: 1 },
+                     pln: { eur: 0.23, usd: 0.26, pln: 1 } }.freeze
 
   def initialize(price)
     @price = price
@@ -22,15 +23,13 @@ class Converter
     final.round(2)
   end
 
-
   def validate_currency(new_currency_name)
     raise InvalidCurrency unless EXCHANGE_RATIO.key?(new_currency_name)
   end
-
 end
 
 price_in_euro = Price.new(10, :eur)
-puts  converter = Converter.new(price_in_euro)
+puts converter = Converter.new(price_in_euro)
 puts converter.convert_to(:usd) # => 11.3
 puts converter.convert_to(:eur) # => 10
 puts converter.convert_to(:pln) # => 43.2

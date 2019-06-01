@@ -3,7 +3,7 @@
 module Clans
   class WarriorsController < ApplicationController
     def show
-      render json: warrior, include: %i[weapon building]
+      render json: serializer(warrior), include: %i[weapon building]
     end
 
     def index
@@ -11,25 +11,25 @@ module Clans
 
       if params.key?(:alive)
         if params[:alive].to_i == 0
-          render json: warriors.dead
+          render json: serializer(warriors.dead)
         else
-          render json: warriors.alive
+          render json: serializer(warriors.alive)
         end
       else
-        render json: warriors
+        render json: serializer(warriors)
       end
     end
 
     def create
       warrior = clan.warriors.create!(warrior_params)
 
-      render json: warrior.to_json, include: %i[weapon building], status: 201
+      render json: serializer(warrior), include: %i[weapon building], status: 201
     end
 
     def update
       warrior.update!(warrior_params)
 
-      render json: warrior, include: %i[weapon building]
+      render json: serializer(warrior), include: %i[weapon building]
     end
 
     def destroy
@@ -48,6 +48,10 @@ module Clans
 
     def warrior_params
       params.permit(:name, :death_date, :armor_quality, :number_of_battles, :join_date)
+    end
+
+    def serializer(obj_to_serialize)
+      WarriorSerializer.new(obj_to_serialize).serializable_hash
     end
   end
 end
