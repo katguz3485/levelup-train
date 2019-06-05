@@ -16,24 +16,21 @@ module Warriors
     private
 
     def employ(mercenary:)
-      clan = clan_finder
-      building = building_finder
-      warrior_class = warrior_class_selector
       warrior = warrior_class.create!(name: mercenary.name, clan: clan, building: building, preferred_weapon_kind: mercenary.preferred_weapon_kind, mercenary: mercenary)
       create_good_weapon(mercenary)
       warrior
     end
 
-    def clan_finder
+    def clan
       Clans::ClansQuery.find_by_id(params[:clan_id])
     end
 
-    def building_finder
+    def building
       Buildings::BuildingsQuery.find_building(params[:building_id])
     end
 
-    def warrior_class_selector
-      Clans::ClansQuery.warriors_class_select(clan: clan_finder, relation: Clan)
+    def warrior_class
+      Clans::ClansQuery.warriors_class_select(clan: clan, relation: Clan)
     end
 
     def create_good_weapon(mercenary)

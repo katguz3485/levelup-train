@@ -24,5 +24,7 @@ module Weapons
         Weapons::NullWeapon.new
       end
     end
+
+
   end
 end
