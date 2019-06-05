@@ -10,7 +10,4 @@ class Mercenary < ApplicationRecord
   validates :price, numericality: { greater_than_or_equal_to: 0 }
   validates :warrior, uniqueness: { allow_nil: true }
   scope :alive, -> { where('death_date IS NULL') }
-
-  # scope :available, -> { Queries::MercenariesQuery.available }
-  # scope :cheapest, -> { Queries::MercenariesQuery.cheapest_mercenary(relation: Mercenary) }
 end
