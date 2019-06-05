@@ -11,7 +11,7 @@ class ClansController < ApplicationController
     if clan.save
       render json: serializer(clan), status: 201
     else
-      render json: {errors: serializer(clan).errors.full_messages}, status: 422
+      render json: { errors: serializer(clan).errors.full_messages }, status: 422
     end
   end
 
@@ -25,4 +25,3 @@ class ClansController < ApplicationController
     ClanSerializer.new(obj_to_serialize).serializable_hash
   end
 end
-

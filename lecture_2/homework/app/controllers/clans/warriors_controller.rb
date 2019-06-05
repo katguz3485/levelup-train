@@ -7,13 +7,12 @@ module Clans
       if warrior.save
         render json: serializer(warrior), status: 201
       else
-        render json: {errors: serializer(warrior).errors.full_messages}, status: 422
+        render json: { errors: serializer(warrior).errors.full_messages }, status: 422
       end
     end
 
     def index
       render json: set_warriors
-
     end
 
     def show
@@ -24,7 +23,7 @@ module Clans
       if clan.samurai.update!(samurai_params)
         render json: serializer(warrior), status: 201
       else
-        render json: {errors: serializer(warrior).errors.full_messages}, status: 422
+        render json: { errors: serializer(warrior).errors.full_messages }, status: 422
       end
     end
 
@@ -57,12 +56,11 @@ module Clans
                  else
                    serializer(clan.warriors)
                  end
-     warriors
+      warriors
     end
 
     def serializer(serialized_object)
       WarriorSerializer.new(serialized_object)
     end
-
   end
 end

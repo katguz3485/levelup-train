@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::API
+  include Errorable
   before_action :set_raven_context
 
   rescue_from ActiveRecord::RecordNotFound do |exception|

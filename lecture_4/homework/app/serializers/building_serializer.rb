@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class BuildingSerializer < ActiveModel::Serializer
+class BuildingSerializer < ApplicationSerializer
   attributes :name
 
   has_many :warriors

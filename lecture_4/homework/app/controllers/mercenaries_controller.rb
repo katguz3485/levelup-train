@@ -1,33 +1,34 @@
 # frozen_string_literal: true
 
-# This controller is written badly on purpose. Please refactor this
+require 'pry'
+
 class MercenariesController < ApplicationController
+
   def index
-    render json: Mercenary.where('available_from < ?', Time.now).all
+    mercenaries = Mercenaries::MercenariesQuery.available
+    render json: serializer(mercenaries, serializer_type: MercenarySerializer)
   end
 
   def show
-    render json: mercenary, include: [:warrior]
+    render json: serializer(mercenary, serializer_type: MercenarySerializer)
   end
 
   def employ_best
-    mercenary = Mercenary.where('available_from < ?', Time.now).order(price: :asc).first # TODO: what about experience?
-    clan = find_clan
-    building = find_building
-    warrior_class = clan.warriors.select('type, count(type) as warriors_count').group(:type).order('warriors_count ASC').first.class
-    warrior = warrior_class.create!(name: mercenary.name, clan: clan, building: building, preferred_weapon_kind: mercenary.preferred_weapon_kind, mercenary: mercenary)
-    create_good_weapon(mercenary)
-    render json: warrior, include: [:mercenary], status: 201
+    mercenary = Mercenaries::MercenariesQuery.cheapest_mercenary
+
+    warrior = Warriors::WarriorRecruiter.new(mercenary: mercenary, params: mercenary_params).call
+    render json: serializer(warrior, serializer_type: WarriorSerializer), include: [:mercenary], status: 201
   end
 
   def employ
     return unless mercenary.available_from < Time.now
-    clan = find_clan
-    building = find_building
-    warrior_class = clan.warriors.select('type, count(type) as warriors_count').group(:type).order('warriors_count ASC').first.class
-    warrior = warrior_class.create!(name: mercenary.name, clan: clan, building: building, preferred_weapon_kind: mercenary.preferred_weapon_kind, mercenary: mercenary)
-    create_good_weapon(mercenary)
-    render json: warrior, include: [:mercenary], status: 201
+
+    warrior = Warriors::WarriorRecruiter.new(mercenary: mercenary, params: mercenary_params).call
+    render json: serializer(warrior, serializer_type: WarriorSerializer), include: [:mercenary], status: 201
+  end
+
+  def create_good_weapon(mercenary)
+    Weapons::WeaponCreator.new(mercenary: mercenary).call
   end
 
   private
@@ -36,28 +37,13 @@ class MercenariesController < ApplicationController
     @mercenary ||= Mercenary.find(params[:id])
   end
 
-  def find_building
-    if params[:building_id]
-      Building.find(params[:building_id])
-    end
+  def serializer(obj_to_serialize, serializer_type:)
+    serializer_type.new(obj_to_serialize).serializable_hash
   end
 
-  def find_clan
-    if params[:clan_id]
-      Clan.find(params[:clan_id])
-    else
-      Clan.order(warriors_count: :desc).first
-    end
-  end
+  def mercenary_serializer; end
 
-  def create_good_weapon(mercenary)
-    case mercenary.preferred_weapon_kind
-    when :melee
-      Weapons::Katana.create!(warrior: mercenary.warrior, range: 2, damage: 25)
-    when :ranged
-      Weapons::Musket.create!(warrior: mercenary.warrior, range: 40, damage: 10)
-    else
-      # TODO: some default?
-    end
+  def mercenary_params
+    params.permit(:clan_id, :building_id, :type)
   end
 end

@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class CreateSamurais < ActiveRecord::Migration[5.2]
   def change
     create_table :samurais do |t|
-      t.string :name, null: false, default: ""
+      t.string :name, null: false, default: ''
       t.integer :shield_quality, null: false, default: 0
       t.integer :number_of_battles, null: false, default: 0
       t.date :join_date, null: false

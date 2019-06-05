@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddCounterToClans < ActiveRecord::Migration[5.2]
   def change
     add_column :clans, :warriors_count, :integer, default: 0, null: false
