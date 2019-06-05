@@ -2,7 +2,9 @@
 
 module Reports
   class SiegeReport
-    def initialize(building:); end
+    def initialize(building:)
+
+    end
 
     def call
       raise NotImprementedYet

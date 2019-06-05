@@ -1,11 +1,11 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  database: rorlevelup2019
+  database: rorlevelup2019_task5
 
 development:
   <<: *default
 
 test: &test
   <<: *default
-  database: rorlevelup2019_test
+  database: rorlevelup2019_test_task5
