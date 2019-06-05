@@ -22,6 +22,10 @@ module Lecture1
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
+    Raven.configure do |config|
+      config.dsn = 'https://ddef8c957a064d3da1e393fefdf77696:011c4abec5804d79ad0a70f0a86922d2@sentry.io/1468252'
+      config.sanitize_fields = Rails.application.config.filter_parameters.map(&:to_s)
+    end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
