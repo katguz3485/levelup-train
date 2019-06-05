@@ -3,30 +3,32 @@
 require 'pry'
 
 class MercenariesController < ApplicationController
+
   def index
-    mercenaries = Mercenary.available
+    mercenaries = Mercenaries::MercenariesQuery.available
     render json: serializer(mercenaries, serializer_type: MercenarySerializer)
   end
 
   def show
-    render json: serializer(mercenary)
+    render json: serializer(mercenary, serializer_type: MercenarySerializer)
   end
 
   def employ_best
-    mercenary = Mercenary.cheapest
-    warrior = WarriorRecruiter.new(mercenary: mercenary, params: mercenary_params).call
+    mercenary = Mercenaries::MercenariesQuery.cheapest_mercenary
+
+    warrior = Warriors::WarriorRecruiter.new(mercenary: mercenary, params: mercenary_params).call
     render json: serializer(warrior, serializer_type: WarriorSerializer), include: [:mercenary], status: 201
   end
 
   def employ
     return unless mercenary.available_from < Time.now
 
-    warrior = WarriorRecruiter.new(mercenary: mercenary, params: mercenary_params).call
+    warrior = Warriors::WarriorRecruiter.new(mercenary: mercenary, params: mercenary_params).call
     render json: serializer(warrior, serializer_type: WarriorSerializer), include: [:mercenary], status: 201
   end
 
   def create_good_weapon(mercenary)
-    WeaponCreator.new(mercenary: mercenary).call
+    Weapons::WeaponCreator.new(mercenary: mercenary).call
   end
 
   private
@@ -39,9 +41,7 @@ class MercenariesController < ApplicationController
     serializer_type.new(obj_to_serialize).serializable_hash
   end
 
-  def mercenary_serializer
-
-  end
+  def mercenary_serializer; end
 
   def mercenary_params
     params.permit(:clan_id, :building_id, :type)
