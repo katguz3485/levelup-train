@@ -14,5 +14,4 @@ class BuildingsController < ApplicationController
   def building
     @building ||= Building.find(params[:id])
   end
-
 end
