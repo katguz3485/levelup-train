@@ -6,7 +6,7 @@ class BuildingsController < ApplicationController
   end
 
   def show
-    render json: clan, include: [:warriors]
+    render json: building, include: [:warriors]
   end
 
   private

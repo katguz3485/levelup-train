@@ -2,8 +2,8 @@
 
 FactoryBot.define do
   factory :building do
-    name { 'MyString' }
-    type { '' }
+    name { 'Castle' }
+    type { 'Buildings::Stronghold' }
     granary { 1 }
   end
 end
