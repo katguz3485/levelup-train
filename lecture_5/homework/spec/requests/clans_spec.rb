@@ -31,10 +31,8 @@ RSpec.describe 'Clans API', type: :request do
 
   describe 'POST /clans' do
     before { post '/clans', params: params }
-
     context 'with valid name' do
       let(:params) { { name: 'Stary Oboz' } }
-
       it 'responds with 201' do
         expect(response.status).to eq(201)
       end
@@ -43,12 +41,10 @@ RSpec.describe 'Clans API', type: :request do
 
   context 'with invalid name' do
     let(:params) { { name: 'a' } }
-
     it 'responds with 422' do
       post '/clans', params: params
       expect(response.status).to eq(422)
     end
-
     it 'does not create clan' do
       expect { post '/clans' }.not_to change { Clan.count }
     end
