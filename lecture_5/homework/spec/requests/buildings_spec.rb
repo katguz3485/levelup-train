@@ -32,89 +32,11 @@ RSpec.describe 'Buildings', type: :request do
     it 'includes correct name' do
       get "/buildings/#{building.id}"
       response_json = JSON.parse(response.body)
-      expect(response_json.dig('data', 'attributes')).to eq('name' => 'Stronghold no 1', 'type' => 'Buildings::Stronghold', 'granary' => 2)
+      expect(response_json.dig('data', 'attributes')).to eq('name' => 'Stronghold no 1',
+                                                            'siege-ability' => 0,
+                                                            'type' => 'Buildings::Stronghold',
+                                                            'granary' => 2)
     end
   end
 
-
-#
-# describe 'POST /clans' do
-#   before {post '/clans', params: params}
-#   context 'with valid name' do
-#     let(:params) {{name: 'Stary Oboz'}}
-#     it 'responds with 201' do
-#       expect(response.status).to eq(201)
-#     end
-#   end
-# end
-
-# describe 'GET/buildings' do
-#
-# end
-
-#   {
-#     "data": [
-#         {
-#             "id": "1",
-#             "type": "buildings-strongholds",
-#             "attributes": {
-#                 "name": "Main stronghold",
-#                 "type": "Buildings::Stronghold",
-#                 "granary": 5000
-#             },
-#             "relationships": {
-#                 "warriors": {
-#                     "data": [
-#                         {
-#                             "id": "2",
-#                             "type": "warriors-samurais"
-#                         },
-#                         {
-#                             "id": "3",
-#                             "type": "warriors-samurais"
-#                         }
-#                     ]
-#                 }
-#             }
-#         },
-#         {
-#             "id": "2",
-#             "type": "buildings-walls",
-#             "attributes": {
-#                 "name": "Northern wall",
-#                 "type": "Buildings::Walls",
-#                 "granary": 100
-#             },
-#             "relationships": {
-#                 "warriors": {
-#                     "data": [
-#                         {
-#                             "id": "4",
-#                             "type": "warriors-hussars"
-#                         }
-#                     ]
-#                 }
-#             }
-#         },
-#         {
-#             "id": "3",
-#             "type": "buildings-walls",
-#             "attributes": {
-#                 "name": "Southern wall",
-#                 "type": "Buildings::Walls",
-#                 "granary": 100
-#             },
-#             "relationships": {
-#                 "warriors": {
-#                     "data": [
-#                         {
-#                             "id": "5",
-#                             "type": "warriors-hussars"
-#                         }
-#                     ]
-#                 }
-#             }
-#         }
-#     ]
-# }
 end
