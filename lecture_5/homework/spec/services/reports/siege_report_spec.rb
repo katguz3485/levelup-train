@@ -7,7 +7,7 @@ RSpec.describe Reports::SiegeReport, type: :service do
 
   context 'when warriors are absent' do
     describe ".call" do
-      it 'returns 0 value of siege ability ' do
+      it 'should return 0 value of siege ability ' do
         expect(siege_report.call).to eq(0)
       end
     end
@@ -16,7 +16,7 @@ RSpec.describe Reports::SiegeReport, type: :service do
   context 'when 1 cavlary is present' do
     describe ".call" do
       let!(:warrior) {build(:samurai)}
-      it 'returns 3 value of siege ability' do
+      it 'should return 3 value of siege ability' do
         expect(siege_report.call).to eq(3)
       end
     end
@@ -25,7 +25,7 @@ RSpec.describe Reports::SiegeReport, type: :service do
   context 'when 1 infantry' do
     describe 'call' do
       let!(:warrior) {build(:hussar)}
-      it 'returns 4 value of siege ability' do
+      it 'should return 4 value of siege ability' do
         expect(siege_report.call).to eq(4)
       end
     end
@@ -35,13 +35,15 @@ RSpec.describe Reports::SiegeReport, type: :service do
     describe '.call' do
       let!(:warrior) {build(:hussar)}
       let!(:warrior) {build(:samurai)}
-      it 'returns 2' do
+      it 'should return 2 value of siege ability' do
         expect(siege_report.call).to eq(2)
       end
     end
   end
 
 end
+
+
 # module Reports
 #   class SiegeReport
 #     def initialize(building:); end

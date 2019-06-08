@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="69d3f2b5-036e-46a6-9f6b-79189e90f5be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/app/controllers/clans_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/app/controllers/clans_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/coverage/.last_run.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lecture_5/homework/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lecture_5/homework/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/spec/requests/clans_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/spec/requests/clans_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture_5/homework/spec/services/reports/siege_report_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/spec/services/reports/siege_report_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,29 +19,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/clan_serializer.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/weapon_serializer.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/building_serializer.rb">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/warrior.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/services/reports/siege_report.rb">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/weapon.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" selection-start-line="7" selection-start-column="28" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/weapons.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/mercenaries.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/clans.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/weapon_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -54,47 +75,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="163">
+              <caret line="70" column="63" selection-start-line="63" selection-start-column="3" selection-end-line="70" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190607104729_add_siege_ability_to_buildings.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/warrior_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190605201522_add_missing_null_values.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190414111449_add_granary_to_buildings.rb">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -109,9 +102,7 @@
         <option value="$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/config/database.yml" />
         <option value="$PROJECT_DIR$/lecture_5/homework/app/services/reports/siege_report.rb" />
-        <option value="$PROJECT_DIR$/lecture_5/homework/app/serializers/building_serializer.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/config/application.rb" />
-        <option value="$PROJECT_DIR$/lecture_5/homework/spec/factories/clans/warriors.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/spec/factories/buildings.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/config/routes.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/spec/models/clan_spec.rb" />
@@ -121,27 +112,30 @@
         <option value="$PROJECT_DIR$/lecture_5/homework/app/models/clan.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/app/controllers/buildings_controller.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/app/controllers/clans_controller.rb" />
-        <option value="$PROJECT_DIR$/lecture_5/homework/Gemfile" />
         <option value="$PROJECT_DIR$/lecture_5/homework/spec/requests/clans_spec.rb" />
-        <option value="$PROJECT_DIR$/lecture_5/homework/spec/requests/buildings_spec.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190607103611_add_siege_ability_to_building.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/db/migrate/20190607104729_add_siege_ability_to_buildings.rb" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/levelup-train.iml" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/app/serializers/building_serializer.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/requests/buildings_spec.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/Gemfile" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/db/schema.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/factories/clans/warriors.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/models/building_spec.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/models/warrior_spec.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/services/reports/siege_report_spec.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/models/mercenary_spec.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/models/weapon_spec.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/factories/mercenaries.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/spec/factories/weapons.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="320" />
-    <option name="y" value="63" />
-    <option name="width" value="1161" />
-    <option name="height" value="727" />
+    <option name="x" value="67" />
+    <option name="y" value="38" />
+    <option name="width" value="1299" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,6 +174,39 @@
               <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="warriors" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="serializers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -187,7 +214,9 @@
               <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reports" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -195,7 +224,6 @@
               <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="migrate" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -203,6 +231,47 @@
               <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="spec" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spec" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="factories" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spec" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spec" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="requests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spec" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spec" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reports" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -219,6 +288,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ror_task-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -252,18 +322,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559899741130</updated>
-      <workItem from="1559899767882" duration="3410000" />
+      <workItem from="1559899767882" duration="9006000" />
+      <workItem from="1559935239179" duration="12649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24750000" />
+    <option name="totallyTimeSpent" value="42995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7890995" visible="true" weight="0.38387868" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7890995" visible="true" weight="0.28890663" />
       <window_info id="Structure" order="1" sideWeight="0.21090047" side_tool="true" weight="0.3256185" />
       <window_info id="Favorites" order="2" sideWeight="0.17603911" side_tool="true" weight="0.2807175" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,8 +348,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4980048" visible="true" weight="0.35667753" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5019952" side_tool="true" weight="0.2931596" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4964086" visible="true" weight="0.42833877" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50359136" side_tool="true" weight="0.27198696" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,69 +388,6 @@
     <SUITE FILE_PATH="coverage/levelup_train@crud_example__1_.rcov" NAME="crud_example (1) Coverage Results" MODIFIED="1556550152396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture_1" MODULE_NAME="levelup-train" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/services/weapons/weapon_creator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_4/homework/app/controllers/mercenaries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/controllers/concerns/errors_handler.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/config/credentials.yml.enc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/weapon.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/warriors/samurai.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/warriors/hussar.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/buildings/walls.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/warrior_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/warrior.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/buildings/stronghold.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/mailers/application_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/controllers/clans/warriors_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/jobs/application_job.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -399,24 +407,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/controllers/clans_controller_spec.rb" />
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/controllers/clans/warriors_controller_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/clans/warriors.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/clan_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -449,39 +443,11 @@
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/clans.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/buildings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/rails_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/controllers/buildings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -493,20 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/requests/buildings_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/requests/clans_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/controllers/clans_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -514,52 +466,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/building.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/mercenary.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/clan_serializer.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/weapon_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/building_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/services/reports/siege_report.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="7" selection-start-column="28" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190607103611_add_siege_ability_to_building.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190607103611_add_siege_ability_to_building.rb" />
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190414111449_add_granary_to_buildings.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190605201522_add_missing_null_values.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -571,17 +483,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/weapon_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/serializers/building_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190607104729_add_siege_ability_to_buildings.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/controllers/buildings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/factory_bot-5.0.2/lib/factory_bot/registry.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/warriors/hussar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/services/reports/siege_report.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/buildings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/buildings/stronghold.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/buildings/walls.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/requests/buildings_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/requests/clans_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/warriors.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/clans/warriors.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/building.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="87" selection-start-line="3" selection-start-column="1" selection-end-line="6" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/mercenary.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/services/reports/siege_report_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/clan_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/building_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/warrior_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/weapon.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/weapon_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/clans.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/names.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/models/mercenary_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/models/warrior.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/mercenaries.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="70" column="63" selection-start-line="63" selection-start-column="3" selection-end-line="70" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/factories/weapons.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

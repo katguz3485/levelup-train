@@ -1,6 +1,23 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/building.rb": [
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/application_record.rb": [
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
       "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/clan.rb": [
         null,
         null,
@@ -9,8 +26,62 @@
         1,
         null
       ],
-      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/application_record.rb": [
+      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/mercenary.rb": [
         null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/weapon.rb": [
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/warrior.rb": [
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
         null,
         1,
         1,
@@ -25,6 +96,19 @@
         null,
         1,
         4,
+        null,
+        null,
+        null
+      ],
+      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/warriors/samurai.rb": [
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
         null,
         null,
         null
@@ -72,16 +156,6 @@
         null,
         null
       ],
-      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/building.rb": [
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
       "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/buildings/stronghold.rb": [
         null,
         null,
@@ -96,49 +170,6 @@
         1,
         1,
         1,
-        null
-      ],
-      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/warrior.rb": [
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/weapon.rb": [
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        null,
         null
       ],
       "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/controllers/clans_controller.rb": [
@@ -176,19 +207,6 @@
         1,
         null,
         1,
-        null
-      ],
-      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/warriors/samurai.rb": [
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
         null
       ],
       "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/warriors/hussar.rb": [
@@ -255,24 +273,6 @@
         null,
         null,
         0,
-        0,
-        0,
-        0
-      ],
-      "/home/kasia/RubymineProjects/levelup-train/lecture_5/homework/app/models/mercenary.rb": [
-        null,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
         0,
         0,
         0
@@ -363,6 +363,6 @@
         0
       ]
     },
-    "timestamp": 1560000102
+    "timestamp": 1560023448
   }
 }
