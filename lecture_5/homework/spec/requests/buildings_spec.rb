@@ -12,7 +12,7 @@ RSpec.describe 'Buildings', type: :request do
   end
 
   describe 'GET/buildings' do
-    before {create_list(:building, 2)}
+    before { create_list(:building, 2) }
     it 'includes correct number of records' do
       get '/buildings'
       response_json = JSON.parse(response.body)
@@ -21,13 +21,14 @@ RSpec.describe 'Buildings', type: :request do
   end
 
   describe 'GET /building/:id' do
-    let(:building) {
+    let(:building) do
       create(:building, name: building_name, type: type,
-             granary: granary)}
+                        granary: granary)
+    end
 
-    let(:building_name) {'Stronghold no 1'}
-    let(:type) {'Buildings::Stronghold'}
-    let(:granary) {2}
+    let(:building_name) { 'Stronghold no 1' }
+    let(:type) { 'Buildings::Stronghold' }
+    let(:granary) { 2 }
 
     it 'includes correct name' do
       get "/buildings/#{building.id}"
@@ -38,5 +39,4 @@ RSpec.describe 'Buildings', type: :request do
                                                             'granary' => 2)
     end
   end
-
 end

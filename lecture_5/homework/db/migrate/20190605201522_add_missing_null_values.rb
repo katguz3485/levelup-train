@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddMissingNullValues < ActiveRecord::Migration[5.2]
   def change
     change_column_null :mercenaries, :name, false
@@ -10,5 +12,4 @@ class AddMissingNullValues < ActiveRecord::Migration[5.2]
     change_column_null :weapons, :kind, false
     change_column_null :buildings, :name, false
   end
-
 end
