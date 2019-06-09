@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d3f2b5-036e-46a6-9f6b-79189e90f5be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture_5/homework/spec/requests/clans/warriors_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/coverage/.last_run.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/coverage/.resultset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_5/homework/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/coverage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/levelup-train.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture_5/homework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_5/homework/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +40,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/queries/buildings/buildings_query.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lecture_5/homework/app/controllers/clans/warriors_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -55,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/requests/clans/warriors_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="171">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lecture_5/homework/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -144,13 +146,14 @@
         <option value="$PROJECT_DIR$/lecture_5/homework/spec/services/reports/siege_report_spec.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/app/services/reports/siege_report.rb" />
         <option value="$PROJECT_DIR$/lecture_5/homework/spec/requests/clans/warriors_spec.rb" />
+        <option value="$PROJECT_DIR$/lecture_5/homework/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="108" />
-    <option name="y" value="41" />
-    <option name="width" value="1162" />
+    <option name="x" value="146" />
+    <option name="y" value="27" />
+    <option name="width" value="1161" />
     <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,6 +172,16 @@
             <path>
               <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lecture_4" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -176,30 +189,6 @@
               <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/RubymineProjects/levelup-train" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="lecture_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="clans" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="levelup-train" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -302,12 +291,12 @@
       <updated>1559899741130</updated>
       <workItem from="1559899767882" duration="9006000" />
       <workItem from="1559935239179" duration="23524000" />
-      <workItem from="1560073481501" duration="23007000" />
+      <workItem from="1560073481501" duration="23539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76877000" />
+    <option name="totallyTimeSpent" value="77409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +310,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8149883" visible="true" weight="0.264166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8149883" visible="true" weight="0.264166" />
       <window_info id="Structure" order="1" sideWeight="0.21090047" side_tool="true" weight="0.3256185" />
       <window_info id="Favorites" order="2" sideWeight="0.18501171" side_tool="true" visible="true" weight="0.264166" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.32899022" />
@@ -337,7 +326,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5051876" side_tool="true" weight="0.267101" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49481246" visible="true" weight="0.30456027" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49481246" visible="true" weight="0.30456027" />
       <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -388,13 +377,6 @@
     <SUITE FILE_PATH="coverage/levelup_train@crud_example__1_.rcov" NAME="crud_example (1) Coverage Results" MODIFIED="1556550152396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture_1" MODULE_NAME="levelup-train" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190405090544_add_counter_to_clans.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/db/migrate/20190607104729_add_siege_ability_to_buildings.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -683,8 +665,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lecture_5/homework/spec/requests/clans/warriors_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="171">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture_5/homework/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
