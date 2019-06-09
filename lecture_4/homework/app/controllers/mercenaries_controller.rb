@@ -3,10 +3,13 @@
 require 'pry'
 
 class MercenariesController < ApplicationController
-
   def index
     mercenaries = Mercenaries::MercenariesQuery.available
-    render json: serializer(mercenaries, serializer_type: MercenarySerializer)
+    if mercenaries.present?
+      render json: serializer(mercenaries, serializer_type: MercenarySerializer)
+    else
+      render json: { error: 'There is no mercenaries left' }, status: :not_found
+    end
   end
 
   def show
@@ -15,7 +18,6 @@ class MercenariesController < ApplicationController
 
   def employ_best
     mercenary = Mercenaries::MercenariesQuery.cheapest_mercenary
-
     warrior = Warriors::WarriorRecruiter.new(mercenary: mercenary, params: mercenary_params).call
     render json: serializer(warrior, serializer_type: WarriorSerializer), include: [:mercenary], status: 201
   end
@@ -40,8 +42,6 @@ class MercenariesController < ApplicationController
   def serializer(obj_to_serialize, serializer_type:)
     serializer_type.new(obj_to_serialize).serializable_hash
   end
-
-  def mercenary_serializer; end
 
   def mercenary_params
     params.permit(:clan_id, :building_id, :type)
