@@ -8,4 +8,12 @@ FactoryBot.define do
     type { 'Weapons::Katana' }
     warrior
   end
+
+  factory :katana, parent: :weapon, class: 'Katana' do
+    kind { 'melee' }
+  end
+
+  factory :musket, parent: :musket, class: 'Musket' do
+    kind { 'ranged' }
+  end
 end
