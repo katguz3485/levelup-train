@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
+require 'faker'
 
 RSpec.describe Clans::Warrior, type: :model do
   describe 'validations' do
     let(:warrior) { create(:warrior) }
     it { should validate_presence_of :name }
-    # it {should validate_uniqueness_of(:name)}
     it { should validate_numericality_of(:armor_quality).only_integer }
     it { should validate_numericality_of(:armor_quality).is_greater_than_or_equal_to(0) }
     it { should validate_numericality_of(:armor_quality).is_less_than_or_equal_to(100) }
@@ -15,6 +15,11 @@ RSpec.describe Clans::Warrior, type: :model do
       should validate_inclusion_of(:preferred_weapon_kind)
         .in_array(Weapon::KINDS)
     }
+
+    context 'uniquness of name conditional validation' do
+      let!(:warrior_alive) { create(:warrior, death_date: nil, name: Faker::Name.name) }
+      it { should validate_uniqueness_of(:name) }
+    end
   end
 
   describe 'associations' do
